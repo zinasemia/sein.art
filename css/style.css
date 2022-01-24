@@ -41,11 +41,12 @@ body {
   animation: blink 3s infinite linear alternate;
 }
 
-.title > .letter {
+.title>.letter {
   margin: 0 9px;
 }
 
 @keyframes blink {
+
   60%,
   70%,
   79% {
@@ -80,67 +81,75 @@ body {
   cursor: pointer;
 }
 
-/*does not work, somehow .subtitle > .letter {
-  margin-left: 20px;
-} */
+.subtitle:hover {
+  text-shadow: 0 0 5px #ff7bac, 0 0 10px #ff7bac, 0 0 20px #ff7bac,
+    0 0 40px #ff7bac, 0 0 80px #ff7bac, 0 0 80px #ff7bac, 0 0 100px #ff7bac,
+    0 0 120px #ff7bac;
+}
 
-.subtitle > .letter1-0 {
+/* does not work, somehow for other letters */
+.subtitle > .letter {
+  margin-left: 20px;
+} 
+
+.subtitle>.letter1-0 {
   animation: flicker 6s ease-in-out 7.75s infinite alternate both;
 }
 
-.subtitle > .letter1-1 {
+.subtitle>.letter1-1 {
   animation: flicker 6s ease-in-out 14.75s infinite alternate both;
 }
 
-.subtitle > .letter1-2 {
+.subtitle>.letter1-2 {
   animation: flicker 6s ease-in-out 7.41s infinite alternate both;
 }
 
-.subtitle > .letter1-3 {
+.subtitle>.letter1-3 {
   animation: flicker 6s ease-in-out 8.94s infinite alternate both;
 }
 
-.subtitle > .letter1-4 {
+.subtitle>.letter1-4 {
   animation: flicker 6s ease-in-out 5.47s infinite alternate both;
 }
 
-.subtitle > .letter1-5 {
+.subtitle>.letter1-5 {
   animation: flicker 6s ease-in-out 6.6s infinite alternate both;
 }
 
-.subtitle > .letter1-6 {
+.subtitle>.letter1-6 {
   animation: flicker 6s ease-in-out 9.81s infinite alternate both;
 }
 
-.subtitle > .letter1-7 {
+.subtitle>.letter1-7 {
   animation: flicker 6s ease-in-out 6.39s infinite alternate both;
 }
 
-.subtitle > .letter1-7 {
+.subtitle>.letter1-7 {
   animation: flicker 6s ease-in-out 4.81s infinite alternate both;
 }
 
-.subtitle > .letter1-8 {
+.subtitle>.letter1-8 {
   animation: flicker 6s ease-in-out 74.39s infinite alternate both;
 }
 
-.subtitle > .letter1-9 {
+.subtitle>.letter1-9 {
   animation: flicker 6s ease-in-out 11.81s infinite alternate both;
 }
 
-.subtitle > .letter1-10 {
+.subtitle>.letter1-10 {
   animation: flicker 6s ease-in-out 9.39 s infinite alternate both;
 }
 
-.subtitle > .letter1-11 {
+.subtitle>.letter1-11 {
   animation: flicker 6s ease-in-out 14.23s infinite alternate both;
 }
 
-.subtitle > .letter1-12 {
+.subtitle>.letter1-12 {
   animation: flicker 6s ease-in-out 19.39s infinite alternate both;
 }
 
 @keyframes flicker {
+
   0%,
   2%,
   35%,
@@ -162,6 +171,7 @@ body {
 }
 
 @keyframes border-flicker {
+
   0%,
   2%,
   4%,
