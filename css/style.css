@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap");
 
+
 body {
   background-color: black;
 }
@@ -88,9 +89,9 @@ body {
 }
 
 /* does not work, somehow for other letters */
-.subtitle > .letter {
+.subtitle>.letter {
   margin-left: 20px;
-} 
+}
 
 .subtitle>.letter1-0 {
   animation: flicker 6s ease-in-out 7.75s infinite alternate both;
@@ -201,3 +202,5 @@ a {
   color: none;
   text-decoration: none;
 }
+
+/*codeforexpage/*
