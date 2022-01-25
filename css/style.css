@@ -37,11 +37,12 @@ body {
   animation: blink 3s infinite linear alternate;
 }
 
-.title > .letter {
+.title>.letter {
   margin: 0 9px;
 }
 
 @keyframes blink {
+
   60%,
   70%,
   79% {
@@ -83,67 +84,68 @@ body {
 }
 
 /* does not work, somehow for other letters */
-.subtitle > .letter {
+.subtitle>.letter {
   margin-left: 20px;
 }
 
-.subtitle > .letter1-0 {
+.subtitle>.letter1-0 {
   animation: flicker 6s ease-in-out 7.75s infinite alternate both;
 }
 
-.subtitle > .letter1-1 {
+.subtitle>.letter1-1 {
   animation: flicker 6s ease-in-out 14.75s infinite alternate both;
 }
 
-.subtitle > .letter1-2 {
+.subtitle>.letter1-2 {
   animation: flicker 6s ease-in-out 7.41s infinite alternate both;
 }
 
-.subtitle > .letter1-3 {
+.subtitle>.letter1-3 {
   animation: flicker 6s ease-in-out 8.94s infinite alternate both;
 }
 
-.subtitle > .letter1-4 {
+.subtitle>.letter1-4 {
   animation: flicker 6s ease-in-out 5.47s infinite alternate both;
 }
 
-.subtitle > .letter1-5 {
+.subtitle>.letter1-5 {
   animation: flicker 6s ease-in-out 6.6s infinite alternate both;
 }
 
-.subtitle > .letter1-6 {
+.subtitle>.letter1-6 {
   animation: flicker 6s ease-in-out 9.81s infinite alternate both;
 }
 
-.subtitle > .letter1-7 {
+.subtitle>.letter1-7 {
   animation: flicker 6s ease-in-out 6.39s infinite alternate both;
 }
 
-.subtitle > .letter1-7 {
+.subtitle>.letter1-7 {
   animation: flicker 6s ease-in-out 4.81s infinite alternate both;
 }
 
-.subtitle > .letter1-8 {
+.subtitle>.letter1-8 {
   animation: flicker 6s ease-in-out 74.39s infinite alternate both;
 }
 
-.subtitle > .letter1-9 {
+.subtitle>.letter1-9 {
   animation: flicker 6s ease-in-out 11.81s infinite alternate both;
 }
 
-.subtitle > .letter1-10 {
+.subtitle>.letter1-10 {
   animation: flicker 6s ease-in-out 9.39 s infinite alternate both;
 }
 
-.subtitle > .letter1-11 {
+.subtitle>.letter1-11 {
   animation: flicker 6s ease-in-out 14.23s infinite alternate both;
 }
 
-.subtitle > .letter1-12 {
+.subtitle>.letter1-12 {
   animation: flicker 6s ease-in-out 19.39s infinite alternate both;
 }
 
 @keyframes flicker {
+
   0%,
   2%,
   35%,
@@ -165,6 +167,7 @@ body {
 }
 
 @keyframes border-flicker {
+
   0%,
   2%,
   4%,
@@ -206,4 +209,102 @@ a {
   text-align: center;
   text-shadow: #a48ff2 2px 2px 10px;
   letter-spacing: 5px;
+}
+
+/*BURGER MENU*/
+
+
+#menu {
+  z-index: 2;
+}
+
+#menu-bar {
+  width: 45px;
+  height: 40px;
+  margin: 30px 0 20px 20px;
+  cursor: pointer;
+}
+
+.bar {
+  height: 5px;
+  width: 100%;
+  background-color: #DC052D;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+#bar1 {
+  transform: translateY(-4px);
+}
+
+#bar3 {
+  transform: translateY(4px);
+}
+
+.nav {
+  transition: 0.3s ease;
+  display: none;
+}
+
+.nav ul {
+  padding: 0 22px;
+}
+
+.nav li {
+  list-style: none;
+  padding: 12px 0;
+}
+
+.nav li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  font-weight: bold;
+}
+
+.menu-bg,
+#menu {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.menu-bg {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  margin: 30px 0 20px 20px;
+  background: radial-gradient(circle, #DC052D, #DC052D);
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.change {
+  display: block;
+}
+
+.change .bar {
+  background-color: white;
+}
+
+.change #bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+  opacity: 0;
+}
+
+.change #bar3 {
+  transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg {
+  width: 520px;
+  height: 460px;
+  transform: translate(-60%, -30%);
 }
