@@ -228,7 +228,7 @@ a {
 .bar {
   height: 5px;
   width: 100%;
-  background-color: #DC052D;
+  background-color: #a48ff2;
   display: block;
   border-radius: 5px;
   transition: 0.3s ease;
@@ -257,13 +257,15 @@ a {
 }
 
 .nav li a {
-  color: white;
-  font-size: 20px;
+  font-family: Londrina Outline, sans-serif;
+  font-size: 1.5em;
+  color: black;
   text-decoration: none;
 }
 
 .nav li a:hover {
   font-weight: bold;
+  color: #F27405;
 }
 
 .menu-bg,
@@ -278,7 +280,7 @@ a {
   width: 0;
   height: 0;
   margin: 30px 0 20px 20px;
-  background: radial-gradient(circle, #DC052D, #DC052D);
+  background: #a48ff2;
   border-radius: 50%;
   transition: 0.3s ease;
 }
@@ -288,7 +290,7 @@ a {
 }
 
 .change .bar {
-  background-color: white;
+  background-color: black;
 }
 
 .change #bar1 {
