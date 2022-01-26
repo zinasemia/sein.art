@@ -329,7 +329,9 @@ a {
 .navbar .menu-items li a:hover {
   color: #f27405;
 }
-
+.navbar .menu-items li a:active {
+  color: white;
+}
 .nav-container input[type="checkbox"]:checked~.menu-items {
   transform: translateX(0);
 }
