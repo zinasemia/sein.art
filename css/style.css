@@ -391,20 +391,19 @@ a {
   color: white;
 }
 
-.movingtext {
+/* .movingtext {
   display: inline-block;
   font-family: acumin-pro, sans-serif;
   font-style: normal;
   font-size: 1em;
   color: white;
-  /* animation: moveRight 20s infinite ; */
+  /* animation: moveRight 20s infinite ; 
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   position: absolute;
   
-}
-/* 
+} 
 @keyframes moveRight {
   0%, 50% {
     transform: translate(-30vw);
