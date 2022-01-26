@@ -13,6 +13,7 @@ html {
 body {
   background: black;
   height: 110vh;
+  overflow: hidden;
 }
 
 .container {
@@ -354,21 +355,21 @@ a {
   writing-mode: vertical-rl;
   color: white;
   font-family: Londrina Outline, sans-serif;
-  font-size: 15vw;
-  font-weight: 300;
+  font-size: 18vw;
+  font-weight: 100;
   text-align: center;
   text-transform: uppercase;
   transform: rotate(180deg);
   letter-spacing: 10px;
   margin: 0;
   padding: 0;
-  margin-left: 5vw;
+  margin-left: 0vw;
 
 
 }
 
 .textbox {
-  margin-left: 5vw;
+  margin-left: 10vw;
   width: 50%;
   height: fit-content;
 }
@@ -376,18 +377,40 @@ a {
 .content {
   display: flex;
   flex-direction: row;
-  align-content: center;
   align-items: center;
-  margin-top: 10vw;
+  margin-top: 2vw;
   padding: 20px;
 }
 
-p {
+.textbox>p {
   font-family: acumin-pro, sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 1.2em;
   line-height: 1.6;
-  font-style: normal;
   color: white;
 }
+
+.movingtext {
+  display: inline-block;
+  font-family: acumin-pro, sans-serif;
+  font-style: normal;
+  font-size: 1em;
+  color: white;
+  /* animation: moveRight 20s infinite ; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: absolute;
+  
+}
+/* 
+@keyframes moveRight {
+  0%, 50% {
+    transform: translate(-30vw);
+  }
+
+  100% {
+    transform: translate(10vw);
+  }
+} */
