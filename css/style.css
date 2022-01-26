@@ -13,7 +13,7 @@ html {
 body {
   background: black;
   height: 110vh;
-  overflow: hidden;
+
 }
 
 .container {
@@ -435,9 +435,30 @@ h2 {
 }
 
 
-@media only screen and (max-width: 750px) {
-  body {
-    background-color: lightblue;
+@media only screen and (max-width: 1000px) {
+ 
+
+  .textbox {
+    width: auto;
+    font-size: 1.2em;
+    margin-left: 0;
+
+  }
+
+  .headline {
+    writing-mode: horizontal-tb;
+    transform: rotate(0deg);
+    font-size: 20vw;
+
+
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+    margin-top: 2vw;
+    padding: 20px;
   }
 
 }
