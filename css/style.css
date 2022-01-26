@@ -329,9 +329,15 @@ a {
 .navbar .menu-items li a:hover {
   color: #f27405;
 }
-.navbar .menu-items li a:active {
+
+.navbar .menu-items li .active {
+  text-decoration: underline;
+}
+
+.navbar .menu-items li .active:hover {
   color: white;
 }
+
 .nav-container input[type="checkbox"]:checked~.menu-items {
   transform: translateX(0);
 }
@@ -463,7 +469,7 @@ h2 {
     padding: 20px;
   }
 
-  
+
   .subtitle {
     font-size: 1em;
   }
