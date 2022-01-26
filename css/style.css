@@ -436,13 +436,13 @@ h2 {
 
 
 @media only screen and (max-width: 1000px) {
- 
+
 
   .textbox {
     width: auto;
     font-size: 1.2em;
     margin-left: 0;
-
+    margin-top: 50px;
   }
 
   .headline {
@@ -456,7 +456,7 @@ h2 {
   .content {
     display: flex;
     flex-direction: column;
-   align-items: flex-start;
+    align-items: flex-start;
     margin-top: 2vw;
     padding: 20px;
   }
