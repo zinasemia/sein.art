@@ -191,7 +191,7 @@ a {
 
 /*codeforcountdown*/
 
-.countdown {
+.countdown >p {
   color: #d6d1e8;
   font-family: Londrina Outline, sans-serif;
   font-size: 2rem;
@@ -200,6 +200,7 @@ a {
   text-align: center;
   text-shadow: #a48ff2 2px 2px 10px;
   letter-spacing: 5px;
+  margin-top: 10px;
 }
 
 /*BURGER MENU*/
