@@ -413,3 +413,31 @@ a {
     transform: translate(10vw);
   }
 } */
+
+/*contac page*/
+h2 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: white;
+}
+
+#email {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: white;
+  text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 750px) {
+  body {
+    background-color: lightblue;
+  }
+
+}
