@@ -12,10 +12,15 @@ html {
 
 body {
   background: black;
-  height: 110vh;
+
 }
 
 footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer */
+  background: #6cf;
   margin: 0;
   padding: 0;
 }
@@ -41,10 +46,11 @@ footer>p {
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
-  height: 100vh;
+  height: 80vh;
   flex-direction: column;
   z-index: 1;
   cursor: default;
+
 }
 
 .title {
