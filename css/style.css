@@ -13,7 +13,6 @@ html {
 body {
   background: black;
   height: 110vh;
-
 }
 
 .container {
@@ -24,6 +23,7 @@ body {
   height: 100vh;
   flex-direction: column;
   z-index: 1;
+  cursor: default;
 }
 
 .title {
@@ -37,6 +37,7 @@ body {
     0 0 40px #f27405, 0 0 80px #f27405, 0 0 80px #f27405, 0 0 100px #f27405,
     0 0 120px #f27405;
   animation: blink 3s infinite linear alternate;
+ 
 }
 
 .title>.letter {
@@ -372,8 +373,6 @@ a {
   margin: 0;
   padding: 0;
   margin-left: 0vw;
-
-
 }
 
 .textbox {
@@ -388,6 +387,7 @@ a {
   align-items: center;
   margin-top: 2vw;
   padding: 20px;
+  cursor: default;
 }
 
 .textbox>p {
@@ -443,9 +443,8 @@ h2 {
 }
 
 
+
 @media only screen and (max-width: 1000px) {
-
-
   .textbox {
     width: auto;
     font-size: 1.2em;
@@ -457,8 +456,6 @@ h2 {
     writing-mode: horizontal-tb;
     transform: rotate(0deg);
     font-size: 20vw;
-
-
   }
 
   .content {
@@ -468,7 +465,6 @@ h2 {
     margin-top: 2vw;
     padding: 20px;
   }
-
 
   .subtitle {
     font-size: 1em;
