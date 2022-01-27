@@ -15,6 +15,27 @@ body {
   height: 110vh;
 }
 
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+footer>p {
+  text-align: center;
+  font-family: acumin-pro, sans-serif;
+  font-size: 0.8em;
+  color: white;
+  cursor: default;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+
+}
+
+/*index.html*/
 .container {
   display: flex;
   justify-content: center;
@@ -37,7 +58,7 @@ body {
     0 0 40px #f27405, 0 0 80px #f27405, 0 0 80px #f27405, 0 0 100px #f27405,
     0 0 120px #f27405;
   animation: blink 3s infinite linear alternate;
- 
+
 }
 
 .title>.letter {
