@@ -61,7 +61,7 @@ footer>p {
 .title {
   color: #fff;
   font-family: Londrina Outline, sans-serif;
-  font-size: 6rem;
+  font-size: 8rem;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -69,6 +69,7 @@ footer>p {
     0 0 40px #9BF29C, 0 0 80px #9BF29C, 0 0 80px #9BF29C, 0 0 100px #9BF29C,
     0 0 120px #9BF29C;
   animation: blink 3s infinite linear alternate;
+  margin-bottom: 30px;
 }
 
 .title>.letter {
