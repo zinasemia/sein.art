@@ -15,14 +15,24 @@ body {
 
 }
 
-footer {
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+  /* Footer height */
+}
+
+#footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  /* Height of the footer */
+  height: 2.5rem;
+
   background: #6cf;
-  margin: 0;
-  padding: 0;
+  /* Footer height */
 }
 
 footer>p {
@@ -46,7 +56,7 @@ footer>p {
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
-  height: 80vh;
+  height: 110vh;
   flex-direction: column;
   z-index: 1;
   cursor: default;
@@ -495,5 +505,15 @@ h2 {
 
   .subtitle {
     font-size: 1em;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer */
+    background: #6cf;
+    margin: 0;
+    padding: 0;
   }
 }
