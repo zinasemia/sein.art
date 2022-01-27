@@ -12,7 +12,6 @@ html {
 
 body {
   background: black;
-
 }
 
 #page-container {
@@ -45,7 +44,6 @@ footer>p {
   text-decoration: none;
   color: white;
   text-align: center;
-
 }
 
 /*index.html*/
@@ -54,11 +52,10 @@ footer>p {
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
-  height: 110vh;
+  height: 80vh;
   flex-direction: column;
   z-index: 1;
   cursor: default;
-
 }
 
 .title {
@@ -72,7 +69,6 @@ footer>p {
     0 0 40px #f27405, 0 0 80px #f27405, 0 0 80px #f27405, 0 0 100px #f27405,
     0 0 120px #f27405;
   animation: blink 3s infinite linear alternate;
-
 }
 
 .title>.letter {
@@ -368,6 +364,8 @@ a {
 
 .navbar .menu-items li .active {
   text-decoration: underline;
+  font-weight: normal;
+  
 }
 
 .navbar .menu-items li .active:hover {
@@ -477,8 +475,6 @@ h2 {
   text-decoration: underline;
 }
 
-
-
 @media only screen and (max-width: 1000px) {
   .textbox {
     width: auto;
@@ -504,6 +500,4 @@ h2 {
   .subtitle {
     font-size: 1em;
   }
-
- 
 }
