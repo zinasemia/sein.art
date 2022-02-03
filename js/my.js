@@ -1,5 +1,5 @@
 // set date we are counting
-var countDownDate = new Date("2022-06-10T14:48:00").getTime();
+var countDownDate = new Date("2022-06-10T00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -23,7 +23,7 @@ var x = setInterval(function () {
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "SEIN.";
+        document.getElementById("demo").innerHTML = "It is time to be.";
     }
 }, 1000);
 //BURGER MENU
