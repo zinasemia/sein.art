@@ -7,7 +7,7 @@ html {
 
 body {
   margin: 0;
-  padding: 10px;
+  padding-left: 1px;
   background: black;
 }
 
@@ -73,7 +73,6 @@ footer > p {
     0 0 120px #9bf29c;
   animation: blink 3s infinite linear alternate;
   margin-bottom: 30px;
-  margin-left: 10px;
   white-space: nowrap;
 }
 
@@ -268,9 +267,6 @@ a {
   height: 62px;
 }
 
-.navbar .menu-items {
-  display: flex;
-}
 
 .navbar .nav-container li {
   list-style: none;
@@ -354,6 +350,8 @@ a {
   padding-left: 50px; */
   transition: transform 0.5s ease-in-out;
   text-align: center;
+
+
 }
 
 .navbar .menu-items li {
