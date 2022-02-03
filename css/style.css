@@ -57,6 +57,7 @@ footer>p {
   flex-direction: column;
   z-index: 1;
   cursor: default;
+  padding: 20px;
 }
 
 .title {
