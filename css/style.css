@@ -5,6 +5,11 @@ html {
   box-sizing: content-box;
 }
 
+body {
+  margin: 0;
+  padding: 30px;
+}
+
 *,
 *:before,
 *:after {
@@ -57,7 +62,6 @@ footer>p {
   flex-direction: column;
   z-index: 1;
   cursor: default;
-  padding: 20px;
 }
 
 .title {
