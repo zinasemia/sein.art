@@ -34,7 +34,7 @@ body {
   /* Footer height */
 }
 
-footer>p {
+footer > p {
   text-align: center;
   font-family: acumin-pro, sans-serif;
   font-size: 0.8em;
@@ -75,12 +75,11 @@ footer>p {
   white-space: nowrap;
 }
 
-.title>.letter {
+.title > .letter {
   margin: 0 5px;
 }
 
 @keyframes blink {
-
   60%,
   70%,
   79% {
@@ -116,68 +115,67 @@ footer>p {
 }
 
 /* does not work, somehow for other letters */
-.subtitle>.letter {
+.subtitle > .letter {
   margin-left: 20px;
 }
 
-.subtitle>.letter1-0 {
+.subtitle > .letter1-0 {
   animation: flicker 6s ease-in-out 7.75s infinite alternate both;
 }
 
-.subtitle>.letter1-1 {
+.subtitle > .letter1-1 {
   animation: flicker 6s ease-in-out 14.75s infinite alternate both;
 }
 
-.subtitle>.letter1-2 {
+.subtitle > .letter1-2 {
   animation: flicker 6s ease-in-out 7.41s infinite alternate both;
 }
 
-.subtitle>.letter1-3 {
+.subtitle > .letter1-3 {
   animation: flicker 6s ease-in-out 8.94s infinite alternate both;
 }
 
-.subtitle>.letter1-4 {
+.subtitle > .letter1-4 {
   animation: flicker 6s ease-in-out 5.47s infinite alternate both;
 }
 
-.subtitle>.letter1-5 {
+.subtitle > .letter1-5 {
   animation: flicker 6s ease-in-out 6.6s infinite alternate both;
 }
 
-.subtitle>.letter1-6 {
+.subtitle > .letter1-6 {
   animation: flicker 6s ease-in-out 9.81s infinite alternate both;
 }
 
-.subtitle>.letter1-7 {
+.subtitle > .letter1-7 {
   animation: flicker 6s ease-in-out 6.39s infinite alternate both;
 }
 
-.subtitle>.letter1-7 {
+.subtitle > .letter1-7 {
   animation: flicker 6s ease-in-out 4.81s infinite alternate both;
 }
 
-.subtitle>.letter1-8 {
+.subtitle > .letter1-8 {
   animation: flicker 6s ease-in-out 74.39s infinite alternate both;
 }
 
-.subtitle>.letter1-9 {
+.subtitle > .letter1-9 {
   animation: flicker 6s ease-in-out 11.81s infinite alternate both;
 }
 
-.subtitle>.letter1-10 {
+.subtitle > .letter1-10 {
   animation: flicker 6s ease-in-out 9.39 s infinite alternate both;
 }
 
-.subtitle>.letter1-11 {
+.subtitle > .letter1-11 {
   animation: flicker 6s ease-in-out 14.23s infinite alternate both;
 }
 
-.subtitle>.letter1-12 {
+.subtitle > .letter1-12 {
   animation: flicker 6s ease-in-out 19.39s infinite alternate both;
 }
 
 @keyframes flicker {
-
   0%,
   2%,
   35%,
@@ -199,7 +197,6 @@ footer>p {
 }
 
 @keyframes border-flicker {
-
   0%,
   2%,
   4%,
@@ -232,7 +229,7 @@ a {
 
 /*codeforcountdown*/
 
-.countdown>p {
+.countdown > p {
   color: #d6d1e8;
   font-family: Londrina Outline, sans-serif;
   font-size: 2rem;
@@ -372,23 +369,23 @@ a {
   color: white;
 }
 
-.nav-container input[type="checkbox"]:checked~.menu-items {
+.nav-container input[type="checkbox"]:checked ~ .menu-items {
   transform: translateX(0);
 }
 
-.nav-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
   transform: rotate(45deg);
 }
 
-.nav-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
   transform: scaleY(0);
 }
 
-.nav-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   transform: rotate(-45deg);
 }
 
-.nav-container input[type="checkbox"]:checked~.logo {
+.nav-container input[type="checkbox"]:checked ~ .logo {
   display: none;
 }
 
@@ -423,7 +420,7 @@ a {
   cursor: default;
 }
 
-section>p {
+section > p {
   font-family: acumin-pro, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -432,7 +429,7 @@ section>p {
   color: white;
 }
 
-section>#specialp {
+section > #specialp {
   margin-top: 50px;
   font-size: 0.8em;
 }
@@ -440,8 +437,6 @@ section>#specialp {
 section {
   margin-top: 20px;
 }
-
-
 
 /*contac page*/
 h2 {
@@ -474,7 +469,8 @@ h3 {
   text-decoration: underline;
 }
 
-.specialul {margin: 20px;
+.specialul {
+  margin: 20px;
   font-family: acumin-pro, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -514,12 +510,11 @@ h3 {
     font-size: 1em;
   }
 
-  section>#specialp {
+  section > #specialp {
     margin-top: 50px;
     font-size: 0.7em;
   }
   h3 {
     font-size: 1.8em;
   }
-  
 }
